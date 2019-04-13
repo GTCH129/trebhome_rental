@@ -7,9 +7,11 @@ url= "https://listings.trebhome.com/listings?%24loc=Toronto&%24zoom=0&%24latitud
 
 Request filter:
 Loc: Toronto
-min_price: $300
+min_price: $300 ( exclude locker and parking spot lease priced below $300)
 max_price:$50,000
 
+Web Scraping method: Use BeautifulSoup and Requests in Python ( see Request py code file )
+ 
 Request Header:
 ID
 Address
@@ -17,6 +19,8 @@ Bedrooms
 Bathrooms
 Type
 Price
+
+The final output dataset is written as " rental1.csv".
 
 
 
